@@ -1,0 +1,52 @@
+body {
+    background-color: aqua;
+    height: fit-content;
+    width: fit-content;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+a {
+    padding: 15px;
+}
+#home {
+    text-decoration: none;
+}
+
+
+label {
+    font-size: 20px;
+}
+#height,
+#weight {
+    font-size: 16px;
+}
+button {
+    margin-left: 120px;
+    font-size: 25px;
+    width: 150px;
+    padding: 1px 20px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+h1,
+h3 {
+    display: flex;
+    justify-content: center;
+}
+#chart {
+    display: flex;
+    justify-content: center;
+}
+#results {
+    color: black;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 120px;
+}
